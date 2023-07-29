@@ -6,11 +6,11 @@ const VideoScreen = () => {
   return (
     <View style={styles.container}>
       <Video
-        source={{ uri: 'https://media.w3.org/2010/05/sintel/trailer.mp4' }} 
+        source={{ uri: 'https://media.w3.org/2010/05/sintel/trailer.mp4' }}
         style={styles.videoPlayer}
-        controls={true} 
-        paused={false} 
-        resizeMode="contain" 
+        controls={true}
+        paused={false}
+        resizeMode="contain"
       />
     </View>
   );
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   },
   videoPlayer: {
     width: '100%',
-    height: 300, // 设置视频高度，可根据实际需求调整
+    height: 300,
   },
 });
 

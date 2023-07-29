@@ -1,5 +1,3 @@
-// BottomTab.js
-
 import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 
@@ -24,7 +22,7 @@ const BottomTab = ({ activeTab, onTabPress }) => {
         style={activeTab === 'Profile' ? styles.activeTab : styles.tab}
         onPress={() => onTabPress('Profile')}
       >
-        <Text style={styles.tabText}>我的页面</Text>
+        <Text style={styles.tabText}>我的</Text>
       </TouchableOpacity>
     </View>
   );
@@ -55,7 +53,7 @@ const styles = StyleSheet.create({
   tabText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color:'black'
+    color: 'black'
   },
 });
 

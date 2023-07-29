@@ -1,5 +1,3 @@
-// SplashScreen.js
-
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
 
@@ -19,7 +17,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF', // 设置背景颜色
+    backgroundColor: '#FFFFFF',
   },
   image: {
     width: '100%',
